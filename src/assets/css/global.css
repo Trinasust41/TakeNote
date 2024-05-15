@@ -6,15 +6,15 @@
 }
 
 .blue-palette {
-  background-image: linear-gradient(to bottom, #0d1282, #0a6ebd);
+  background-image: linear-gradient(to bottom, #373ec0, #3d9ee9);
 }
 
 .rose-palette {
-  background-image: linear-gradient(to bottom, #ff2171, #f266ab);
+  background-image: linear-gradient(to bottom, #ffb121, #f2b566);
 }
 
 .violet-palette {
-  background-image: linear-gradient(to bottom, #360d95, #4e31aa);
+  background-image: linear-gradient(to bottom, rgb(68, 231, 90), rgb(110, 224, 167));
 }
 
 .black-palette {

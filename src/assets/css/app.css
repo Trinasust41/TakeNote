@@ -79,8 +79,7 @@
 
 @media (max-width: 768px) {
   .notes-wrapper {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }
 

@@ -1,3 +1,37 @@
+.note-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.note-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 500ms;
+}
+.note-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.note-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.note-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.note-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 .note-card-wrapper {
   display: flex;
   flex-direction: column;
